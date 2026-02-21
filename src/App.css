@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-50: #F0F4FF;
+  --brand-100: #DDE6FF;
+  --brand-500: #4F6BF6;
+  --brand-600: #3B54DB;
+  --brand-700: #2E44B3;
+}
+
+.bg-blue-100 { background-color: #dbeafe; }
+.bg-emerald-100 { background-color: #d1fae5; }
+.bg-orange-100 { background-color: #ffedd5; }
+.bg-sky-100 { background-color: #e0f2fe; }
+.bg-violet-100 { background-color: #ede9fe; }
+.bg-amber-100 { background-color: #fef3c7; }
+
+.text-blue-700 { color: #1d4ed8; }
+.text-emerald-700 { color: #047857; }
+.text-orange-700 { color: #c2410c; }
+.text-sky-700 { color: #0369a1; }
+.text-violet-700 { color: #6d28d9; }
+.text-amber-700 { color: #b45309; }
+
+.bg-blue-500 { background-color: #3b82f6; }
+.bg-emerald-500 { background-color: #10b981; }
+.bg-orange-500 { background-color: #f97316; }
+.bg-sky-500 { background-color: #0ea5e9; }
+.bg-violet-500 { background-color: #8b5cf6; }
+.bg-amber-500 { background-color: #f59e0b; }
+
+.border-blue-500 { border-color: #3b82f6; }
+.border-emerald-500 { border-color: #10b981; }
+.border-orange-500 { border-color: #f97316; }
+.border-sky-500 { border-color: #0ea5e9; }
+.border-violet-500 { border-color: #8b5cf6; }
+.border-amber-500 { border-color: #f59e0b; }
