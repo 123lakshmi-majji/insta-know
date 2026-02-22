@@ -2,8 +2,18 @@
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://insta-know.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-black)](https://github.com/123lakshmi-majji/insta-know)
-[![Watch Demo](https://img.shields.io/badge/Watch-Demo%20Video-red)](YOUR_VIDEO_LINK_HERE)
+[![Watch Demo](https://img.shields.io/badge/Watch-Demo%20Video-red)](https://drive.google.com/file/d/1tt_9rTQoC0YswlQMyJ8kW0x9uoqrfiTt/view?usp=drive_link)
+## 📹 Demo Video
 
+[![Social Saver Demo](https://img.shields.io/badge/📹-Watch%20Full%20Demo%20(3%20min)-red)](https://drive.google.com/file/d/1tt_9rTQoC0YswlQMyJ8kW0x9uoqrfiTt/view?usp=sharing)
+
+**What's covered in the demo:**
+- 📱 WhatsApp bot integration
+- 🤖 AI-powered categorization
+- 🔍 Search and filter features
+- ⚡ Real-time dashboard updates
+- 🗑️ Delete functionality
+- 📊 Architecture overview
 ## 🏗️ Architecture Diagram
 
 https://github.com/123lakshmi-majji/insta-know/blob/main/architecturedaigram.png?raw=true
