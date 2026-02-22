@@ -1,3 +1,9 @@
+# 📚 Social Saver - Instagram Knowledge Base
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://insta-know.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black)](https://github.com/123lakshmi-majji/insta-know)
+[![Watch Demo](https://img.shields.io/badge/Watch-Demo%20Video-red)](YOUR_VIDEO_LINK_HERE)
+
 ## 🏗️ Architecture Diagram
 
 https://github.com/123lakshmi-majji/insta-know/blob/main/architecturedaigram.png?raw=true
