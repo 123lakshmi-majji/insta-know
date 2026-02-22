@@ -1,3 +1,16 @@
+## 🏗️ Architecture Diagram
+
+https://github.com/123lakshmi-majji/insta-know/blob/main/architecturedaigram.png?raw=true
+
+### Data Flow:
+1. 📱 User sends Instagram link via WhatsApp
+2. 📨 Twilio forwards to FastAPI backend
+3. ⚡ FastAPI processes the request
+4. 🤖 Gemini AI classifies content into categories
+5. 🔥 Firebase stores the data
+6. ⚛️ React dashboard displays saved content
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
