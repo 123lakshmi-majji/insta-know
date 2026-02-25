@@ -14,6 +14,8 @@
 - ⚡ Real-time dashboard updates
 - 🗑️ Delete functionality
 - 📊 Architecture overview
+- ##📹 Demo Video
+-  https://youtu.be/LUcNCRK1Srs
 ## 🏗️ Architecture Diagram
 
 https://github.com/123lakshmi-majji/insta-know/blob/main/architecturedaigram.png?raw=true
