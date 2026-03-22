@@ -1,45 +1,77 @@
-# 📚 Social Saver - Instagram Knowledge Base
+📚 Social Saver
+Social Saver is a WhatsApp bot that turns your Instagram saves into a searchable, AI-powered knowledge base. Forward any Instagram link to the bot, and it automatically saves, categorizes, and summarizes the content—all in a beautiful dashboard.
 
+✨ Overview
+We all save Instagram posts thinking “I’ll look at it later” – but they get buried forever. Social Saver solves that by:
 
-## 📹 Demo Video
+📱 Accepting links via WhatsApp
 
-[![Social Saver Demo](https://img.shields.io/badge/📹-Watch%20Full%20Demo%20(3%20min)-red)](https://drive.google.com/file/d/1tt_9rTQoC0YswlQMyJ8kW0x9uoqrfiTt/view?usp=sharing)
+🤖 Using AI to categorize and summarize
 
-**What's covered in the demo:**
-- 📱 WhatsApp bot integration
-- 🤖 AI-powered categorization
-- 🔍 Search and filter features
-- ⚡ Real-time dashboard updates
-- 🗑️ Delete functionality
-- 📊 Architecture overview
-- ##📹 Demo Video
--  https://youtu.be/LUcNCRK1Srs
-## 🏗️ Architecture Diagram
+💾 Saving everything to a clean dashboard
 
-https://github.com/123lakshmi-majji/insta-know/blob/main/architecturedaigram.png?raw=true
+🔍 Letting you search and filter instantly
 
-### Data Flow:
-1. 📱 User sends Instagram link via WhatsApp
-2. 📨 Twilio forwards to FastAPI backend
-3. ⚡ FastAPI processes the request
-4. 🤖 Gemini AI classifies content into categories
-5. 🔥 Firebase stores the data
-6. ⚛️ React dashboard displays saved content
+No app downloads, no manual tagging – just forward and forget.
 
+🚀 Key Functionality
+1. WhatsApp Bot Integration
+Send any Instagram (or Twitter/YouTube/blog) link to the bot
 
-# React + Vite
+The bot replies with a confirmation and AI summary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Content appears automatically on your dashboard
 
-Currently, two official plugins are available:
+2. AI-Powered Categorization
+Google Gemini analyzes the content
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Automatically tags into categories: Coding, Fitness, Food, Travel, Design, Business
 
-## React Compiler
+No manual tagging required
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. Smart Search & Filters
+Search across titles, descriptions, and summaries
 
-## Expanding the ESLint configuration
+One-click category filters to narrow down results
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Real-time updates as you type
+
+4. Live Dashboard
+Clean card layout with titles, descriptions, and AI summaries
+
+Color-coded category badges and platform icons
+
+Delete items you no longer need with one click
+
+5. Random Inspiration
+Feeling stuck? Click the “Random Inspiration” button to rediscover a saved gem
+
+🛠️ Built With
+Frontend: React + Vite + Tailwind CSS
+
+Backend: FastAPI (Python)
+
+Database: Firebase Firestore
+
+AI: Google Gemini
+
+Messaging: Twilio WhatsApp API
+
+🎯 How It Works
+User sends a link to the WhatsApp bot
+
+Twilio forwards the message to the backend
+
+FastAPI extracts content and passes it to Gemini AI
+
+Gemini classifies the content and generates a summary
+
+Data is saved to Firebase Firestore
+
+React dashboard fetches and displays the new item instantly
+
+🌐 Live Demo
+Try it yourself: insta-know.vercel.app
+
+📂 Repository
+github.com/123lakshmi-majji/insta-know
